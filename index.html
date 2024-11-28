@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array methods</h1>
+    <img src="./Screenshot 2024-11-28 120552.png" alt="imag" width="100%">
+    <script>
+const  ar=[1,2,3,4,5]
+const ar2=ar.map(function(value,index,array){
+    return value*2
+})
+console.log(ar2)
+const num=[9,8,7,6]
+const num2=num.map(function(v,i,a){
+    return v*3
+})
+console.log(num2)
+const a=[1,2,3,4]
+const b=[2,3,4,5]
+console.log(a.concat(b))
+const n=[1,2,3,4]
+console.log(n.includes(4))
+console.log(n.includes("4"))
+const as=[1,2,4,45]
+console.log(as.indexOf(45))
+console.log(as.indexOf(4))
+const asd=[1,2,3,4,2]
+console.log(asd.lastIndexOf(2))
+const qw=[1,2,3,4]
+console.log(qw.reverse())
+const l=[1,2,3,4]
+const k=[9,8,7]
+console.log(l.join(k))
+const add=[1,2,3,4]
+const add2=add.forEach(function(value,index,array){
+    console.log(value*3)
+})
+
+    </script>
+</body>
+</html>
